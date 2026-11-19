@@ -1,6 +1,5 @@
 import { Link } from '@tanstack/react-router';
 import { useLanguage } from '@/i18n/LanguageContext';
-import logoAsset from '@/assets/leopard-logo.png.asset.json';
 
 interface LogoProps {
   /** Tailwind height class for the artwork. */
@@ -18,7 +17,7 @@ export function Logo({ className = 'h-14 sm:h-16', chip = false }: LogoProps) {
       aria-label={t.brand.name}
       className={chip ? 'inline-flex rounded-xl bg-white p-2 shadow-sm' : 'inline-flex'}
     >
-      <img src={logoAsset.url} alt={t.brand.name} className={`w-auto ${className}`} />
+      <img src="/favicon.png" alt={t.brand.name} className={`w-auto ${className}`} />
     </Link>
   );
 }

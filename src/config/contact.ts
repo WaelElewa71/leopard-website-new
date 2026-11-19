@@ -4,8 +4,8 @@ export const publicContact = {
   phoneHref: 'tel:+201001753684',
   whatsappDisplay: '01271596996',
   whatsappHref: 'https://wa.me/201271596996',
-  websiteDisplay: 'leopardlogistics.com',
-  websiteHref: 'https://leopardlogistics.com',
+  websiteDisplay: 'leopard.my.id',
+  websiteHref: 'https://www.leopard.my.id',
   youtubeHref: 'https://www.youtube.com/@waelelewa4660',
   mapsHref: 'https://maps.app.goo.gl/jqy63C5LVrYVmqA29',
 } as const;
